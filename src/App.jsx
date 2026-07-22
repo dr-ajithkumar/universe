@@ -70,7 +70,7 @@ function App() {
       <BrowserRouter basename={import.meta.env.BASE_URL}>
         <CentralSeo />
         <Routes>
-          <Route path="/gemini" element={<Gemini />} />
+          <Route path="/cosmic-view" element={<Gemini />} />
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
