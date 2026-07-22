@@ -8,7 +8,7 @@ const navLinks = [
   { to: '/about', label: 'About' },
   { to: '/achievements', label: 'Achievements' },
   { to: '/contact', label: 'Contact' },
-  { to: '/gemini', label: 'Cosmic View' },
+  { to: '/cosmic-view', label: 'Cosmic View' },
 ]
 
 export default function Header() {
